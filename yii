@@ -13,7 +13,7 @@ define('YII_DEBUG', true);
 // ini_set('display_startup_errors', 1);
 // error_reporting(E_ALL);
 
-$config  = require PATH_VENDOR . '/mlaxwong/paw/bootstrap/console.php';
+$config  = require PATH_VENDOR . '/betatech/paw/bootstrap/console.php';
 $app = Yii::createObject(\yii\helpers\ArrayHelper::merge($config, [
     'basePath' => PATH_ROOT,
     'aliases' => [

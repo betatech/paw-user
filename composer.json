@@ -13,7 +13,18 @@
             "paw\\user\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
     "require": {
-        "mlaxwong/paw": "^1.1"
+        "betatech/paw": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
     }
 }
